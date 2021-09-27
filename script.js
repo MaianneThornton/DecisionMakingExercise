@@ -49,7 +49,6 @@ switch (randomNum) {
     randomNum = 4;
     console.log("Four");
     break;
-    case 5:
-    randomNum = 5;
+    default:
     console.log("Five");
 }
