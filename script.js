@@ -32,10 +32,24 @@ if (randomNum === 2 || 4) {
 console.log(randomNum >= 4 ? "Greater than or equal to 4" : "Less than 4");
 
 //3
-switch (randomNum().spell()) {
+switch (randomNum) {
   case 1:
-    randomNum = 1:
+    randomNum = 1;
     console.log("One");
     break;
-  
+    case 2:
+    randomNum = 2;
+    console.log("Two");
+    break;
+    case 3:
+    randomNum = 3;
+    console.log("Three");
+    break;
+    case 4:
+    randomNum = 4;
+    console.log("Four");
+    break;
+    case 5:
+    randomNum = 5;
+    console.log("Five");
 }
