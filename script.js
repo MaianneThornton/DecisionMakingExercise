@@ -1,9 +1,9 @@
 // 1a
-// let randomNum = Math.floor(Math.random() * 5) + 1;
-// console.log(randomNum);
+let randomNum = Math.floor(Math.random() * 5) + 1;
+console.log(randomNum);
 
 //1b
-let randomNum = Math.floor(Math.random() * 5) + 1;
+randomNum = Math.floor(Math.random() * 5) + 1;
 if (randomNum >= 4) {
   console.log("Greater than or equal to 4");
 } else if (randomNum === 2 || 3) {
